@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  /* background-color: black; */
+  color: black;
+  padding: 7px 40px;
+  font-size: 70px;
+  letter-spacing: 4px;
+  border-radius: 6px;
+  text-decoration: underline;
+}
+
+.output {
+  font-size: 83px;
+  padding: 30px;
+}
+.btn{
+  display: flex;
+  gap: 2rem;
+}
+button {
+  padding: 6px 22px;
+  cursor: pointer;
+}
